@@ -1,0 +1,37 @@
+1.
+- Thực thể Sinh viên với các thuộc tính chính :
+mã sinh viên (Khóa chính)
+họ tên
+ngày sinh
+giới tính
+email
+khoa
+
+- Thực thể môn học với các thuộc tính chính :
+mã môn (khóa chính)
+tên môn
+số tín chỉ
+khoa phụ trách
+
+- Thực thể giảng viên với các thuộc tính chính :
+mã giảng viên (khóa chính)
+họ tên
+học vị
+email
+khoa
+
+- Thực thể lớp học phần với các thuộc tính chính :
+mã lớp học phần (khóa chính)
+học kỳ
+năm học
+phòng học
+
+- Thực thể Đăng ký với các thuộc tính chính :
+mã sinh viên
+mã môn
+2. Các mối quan hệ :
+Môn học - Lớp học phần, Giảng viên - Lớp học phần : 1 - N
+Sinh viên - Lớp học phần : N - N
+
+3.
+Mỗi thuộc tính chỉ giữ một giá trị duy nhất (email, tên, phòng, ...) nên không có thuộc tính đa trị
